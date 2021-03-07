@@ -1,41 +1,16 @@
 <?php
 
-class Car
+final class Car extends Vehicle
 {
-    private $brand;
-    private $color;
-    private $engine;
+    private $door;
 
-
-    public function getBrand()
+    public function getDoor()
     {
-        return $this->brand;
+        return $this->door;
     }
 
-    public function setBrand($brand)
+    public function setDoor($door)
     {
-        $this->brand = $brand;
-    }
-
-
-    public function getColor()
-    {
-        return $this->color;
-    }
-
-
-    public function setColor($color)
-    {
-        $this->color = $color;
-    }
-
-    public function getEngine()
-    {
-        return $this->engine;
-    }
-
-    public function setEngine($engine)
-    {
-        $this->engine = $engine;
+        $this->door = $door;
     }
 }
