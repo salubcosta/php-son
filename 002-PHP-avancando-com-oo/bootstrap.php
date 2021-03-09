@@ -11,5 +11,25 @@ require __DIR__.'/autoload.php';
 
 
 // Example of polymorphism
-var_dump((new DevNortista\DB\MySql)->connect());
-var_dump((new DevNortista\DB\Postgres)->connect());
+// var_dump((new DevNortista\DB\MySql)->connect());
+// var_dump((new DevNortista\DB\Postgres)->connect());
+
+
+// Kidding with Exceptions
+// try {
+//     (new DevNortista\DB\ORM)->tryBool(false);
+// } catch(DevNortista\MyException $e) {
+//     echo $e->getMessage();
+// }
+
+$people = new DevNortista\People\Person;
+
+// $people->showName('Salumao');
+// $people->showAge(29);
+
+
+$people->name = "salumao";
+$people->age = 29;
+$people->weight = 88;
+
+echo $people;
