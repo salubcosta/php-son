@@ -1,1 +1,11 @@
-.data/db/*
+.data/db/mydb
+.data/db/mysql
+.data/db/performance_schema
+.data/db/sys
+.data/db/*.pem
+.data/db/auto.cnf
+.data/db/ib_buffer_pool
+.data/db/ib_logfile0
+.data/db/ib_logfile1
+.data/db/ibdata1
+.data/db/ibtmp1
