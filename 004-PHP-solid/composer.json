@@ -1,0 +1,19 @@
+{
+    "description": "Projeto PHP com SOLID",
+    "name": "salubcosta/php-solid",
+    "authors": [
+        {
+            "name": "Salumao Barobsa da Costa",
+            "email": "salubcosta@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CODE\\" : "src"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
