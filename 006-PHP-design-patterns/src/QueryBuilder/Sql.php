@@ -4,6 +4,9 @@ namespace CODE\QueryBuilder;
 
 class Sql implements Strategy
 {
+    protected $table;
+    protected $sql;
+    
     public function table(string $table):Strategy
     {
         $this->table = $table;
